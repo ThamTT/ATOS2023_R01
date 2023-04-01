@@ -10,7 +10,7 @@ public class base1 {
             tong+=i;
             System.out.printf(" "+i);
         }
-        System.out.printf("\ntong chăn tu 20 den 30 la: "+ tong);
+        System.out.printf("\ntong chan tu 20 den 30 la: "+ tong);
 
 }
 }
