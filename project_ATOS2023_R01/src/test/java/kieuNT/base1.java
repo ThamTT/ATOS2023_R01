@@ -7,6 +7,6 @@ public class base1 {
             tong += i;
             System.out.println(" "+i);
         }
-        System.out.println("Tong = "+tong);
+        System.out.println("Tong chan = "+tong);
     }
 }
