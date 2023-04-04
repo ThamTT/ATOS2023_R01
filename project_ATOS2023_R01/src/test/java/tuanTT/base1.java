@@ -31,8 +31,18 @@ public class base1 {
         String str = "3,7,8,1,3,5";
         System.out.println("\nCác số trong mảng: ");
         String [] arr = str.split(",");
-        for(int i = 0; i < arr.length;i++)
-            System.out.print(arr[i] + "\t");
+        int [] list = new int[arr.length];
+        for(int i = 0; i < arr.length;i++){
+            try{
+                list[i] = Integer.parseInt(arr[i]);
+            }catch (NumberFormatException e){
+                System.out.println("Ngoai le so");
+            }
+        }
+        for(int i = 0; i < list.length; i++){
+            System.out.println(list[i] + "\t");
+        }
+
     }
     public static void main(String[] args) {
         Sum();
