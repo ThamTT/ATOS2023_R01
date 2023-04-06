@@ -2,8 +2,8 @@ package tuanTT;
 
 import java.util.Scanner;
 
-public class base2 {
-    private class Nguoi {
+public  class base2 {
+    private static class Nguoi {
         String ma, ten;
 
         public Nguoi() {
@@ -31,7 +31,7 @@ public class base2 {
         }
     }
 
-    public class NhanVien extends Nguoi{
+    public static class NhanVien extends Nguoi{
         int namsinh;
         float heso, tienPC, luong;
 
@@ -77,7 +77,7 @@ public class base2 {
 
         public void Nhap(){
             Scanner sc = new Scanner(System.in);
-            System.out.print("Nhap ma   : ");
+            System.out.print("\nNhap ma   : ");
             ma = sc.nextLine();
             System.out.print("Nhap ten   : ");
             ten = sc.nextLine();
@@ -92,16 +92,18 @@ public class base2 {
         }
 
         public void Xuat(){
-            System.out.println("\n Ma          : " + ma);
-            System.out.println("\n Ten         : " + ten);
-            System.out.println("\n Nam sinh    : " + namsinh);
-            System.out.println("\n He so luong : " + heso);
-            System.out.println("\n Phụ cap     : " + tienPC);
-            System.out.println("\n Luong       : " + luong);
+
+//            System.out.println("\n Ma          : " + ma);
+//            System.out.println("\n Ten         : " + ten);
+//            System.out.println("\n Nam sinh    : " + namsinh);
+//            System.out.println("\n He so luong : " + heso);
+//            System.out.println("\n Phụ cap     : " + tienPC);
+//            System.out.println("\n Luong       : " + luong);
+            System.out.printf("\n%-15s%-20s%-15s%-20s%-15s%-15s",ma, ten , namsinh , heso, tienPC , luong);
         }
     }
 
-    public class QLNV{
+    public static class QLNV{
         private int n;
         private NhanVien [] a;
 
@@ -129,9 +131,8 @@ public class base2 {
 
         //Xuat danh sach khach hang
         public void xuatDS() {
-
+            System.out.printf("\n%-15s%-20s%-15s%-20s%-15s%-15s","Ma" , "Ho Ten" , "Nam Sinh" , "He So", "Phu cap", "Luong");
             for(int i = 0; i < n;i++) {
-                System.out.println("\nNhan vien thu " + i + 1);
                 a[i].Xuat();
             }
         }
@@ -142,7 +143,8 @@ public class base2 {
                 if(a[i].luong > max)
                     max = a[i].luong;
             }
-
+            System.out.println("\nNguoi co luong cao nhat");
+            System.out.printf("\n%-15s%-20s%-10s%-20s%-15s%-15s","Ma" , "Ho Ten" , "Nam Sinh" , "He So", "Phu cap", "Luong");
             for(int i = 0; i < n;i++){
                 if(max == a[i].luong)
                     a[i].Xuat();
@@ -151,7 +153,7 @@ public class base2 {
 
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         QLNV ql = new QLNV();
         ql.nhapDS();
         ql.xuatDS();
