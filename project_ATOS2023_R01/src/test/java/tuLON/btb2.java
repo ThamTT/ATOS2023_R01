@@ -22,17 +22,21 @@ public class btb2 {
         String convertedDate=dateFormat.format(cal.getTime());
         System.out.println("Date.."+convertedDate);
 
-
-        Scanner input = new Scanner(System.in);
+        //thang
+        Scanner arrlist = new Scanner(System.in);
         System.out.println("Nhap mot thang tu (1-12): ");
-        int month = input.nextInt();
-        String[] monthName = {"January", "February", "March", "April", "May",
-                "June", "July", "August", "September", "October", "November", "December"};
-        if (month >=1 && month <=12){
-            System.out.println("Thang do la: " + monthName[month-1]);
+        int month = arrlist.nextInt();
+        String[][] monthArray = {{"January", "1"}, {"February", "2"}, {"March", "3"}, {"April", "4"},
+                {"May", "5"}, {"June", "6"}, {"July", "7"}, {"August", "8"},
+                {"September", "9"}, {"October", "10"}, {"November", "11"}, {"December", "12"}};
+        int monthNumber = 3;
+        String monthName = "";
+        for (int i = 0; i < monthArray.length; i++) {
+            if (monthArray[i][1].equals(String.valueOf(monthNumber))) {
+                monthName = monthArray[i][0];
+                break;
+            }
         }
-        else {
-            System.out.println("co ca thang nay nua a` ?");
-        }
+        System.out.println("Tháng " + monthNumber + " là " + monthName);
     }
 }
