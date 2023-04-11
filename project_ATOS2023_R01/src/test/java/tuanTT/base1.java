@@ -50,20 +50,17 @@ public class base1 {
         for(int i : listAm){
             System.out.println(i);
         }
-
-//
-//        int [] list = new int[arr.length];
-//        for(int i = 0; i < arr.length;i++){
-//            try{
-//                list[i] = Integer.parseInt(arr[i]);
-//            }catch (NumberFormatException e){
-//                System.out.println("Ngoai le so");
-//            }
-//        }
-//        for(int i = 0; i < list.length; i++){
-//            System.out.println(list[i] + "\t");
-//        }
-
+        int [] list = new int[arr.length];
+        for(int i = 0; i < arr.length;i++){
+            try{
+                list[i] = Integer.parseInt(arr[i]);
+            }catch (NumberFormatException e){
+                System.out.println("Ngoai le so");
+            }
+        }
+        for(int i = 0; i < list.length; i++){
+            System.out.println(list[i] + "\t");
+        }
     }
     public static void Map(){
         Map<String, Integer> myMap = new HashMap<>();
