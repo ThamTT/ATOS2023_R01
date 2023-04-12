@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d3b4dec-f03c-4b9f-820f-4fb1879e2098" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/PTGT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/QL_Hanghoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/btb2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/btbuoi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/mapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/test/btb3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tuLON/test/testOpen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/hueXinh/buoi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/kieuNT/datetime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/lanhD/baiTapBuoi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/lanhD/date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/thamTT/javacore/baiTapB2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/base1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/bt_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/bt_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/btb2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/btbuoi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/tuLON/mapp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/vanNT/BtapBuoi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/test/java/vanNT/dtf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/hueXinh/baitap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/hueXinh/buoi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/kieuNT/bai1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/kieuNT/bai2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/kieuNT/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/kieuNT/datetime.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/lanhD/baiTapBuoi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/lanhD/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/lanhD/bt2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/lanhD/date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/thamTT/javacore/baiTapB2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/thamTT/javacore/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/thamTT/test/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/bt_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/bt_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/btb2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/btbuoi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/date.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuLON/mapp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuanTT/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuanTT/base2$Nguoi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuanTT/base2$NhanVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuanTT/base2$QLNV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/tuanTT/base2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/vanNT/BtapBuoi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/vanNT/base1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../target/test-classes/vanNT/dtf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project_ATOS2023_R01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hueXinh/baitap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/hueXinh/baitap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kieuNT/bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/kieuNT/bai1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kieuNT/bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/kieuNT/bai2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/kieuNT/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/kieuNT/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lanhD/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/lanhD/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lanhD/bt2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/lanhD/bt2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lanhD/btBuoi1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/testOpen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thamTT/javacore/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/thamTT/javacore/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thamTT/test/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/thamTT/test/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuLON/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuLON/bt_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/bt_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuLON/bt_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tuLON/javacore/bt_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/base2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/base2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/checkPassFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tuLON/test/checkPassFail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/checkPassFailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tuLON/test/checkPassfailtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/myTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/testOpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tuanTT/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/vanNT/base1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/vanNT/base1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/archetype.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/META-INF/maven/archetype.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/archetype-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testOpen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/test-classes/testOpen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/tuanTT/checkPassFail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/checkPassFail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/tuanTT/checkPassFailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/checkPassFailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/tuanTT/myTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/myTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/tuanTT/testOpen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/testOpen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/tuanTT/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../src/test/java/tuanTT/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NpQR7WundeftNMl3GF3zZw8jxB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/test2/ATOS2023_R01",
+    "settings.editor.selected.configurable": "settings.sync"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tuanTT" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.myTest">
+    <configuration name="testOpen" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tuanTT.testOpen" />
+      <module name="TestOpen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tuanTT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPassFailTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestOpen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tuanTT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tuanTT" />
+      <option name="MAIN_CLASS_NAME" value="tuanTT.checkPassFailTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPassFailTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestOpen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tuanTT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tuanTT" />
+      <option name="MAIN_CLASS_NAME" value="tuanTT.checkPassFailTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestOpen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tuanTT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tuanTT" />
+      <option name="MAIN_CLASS_NAME" value="tuanTT.myTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myTest.testSum" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestOpen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tuanTT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tuanTT" />
+      <option name="MAIN_CLASS_NAME" value="tuanTT.myTest" />
+      <option name="METHOD_NAME" value="testSum" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testOpen" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestOpen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tuanTT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tuanTT" />
+      <option name="MAIN_CLASS_NAME" value="tuanTT.testOpen" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.myTest" />
+        <item itemvalue="TestNG.myTest.testSum" />
+        <item itemvalue="TestNG.testOpen" />
+        <item itemvalue="TestNG.checkPassFailTest" />
+        <item itemvalue="TestNG.checkPassFailTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d3b4dec-f03c-4b9f-820f-4fb1879e2098" name="Changes" comment="" />
+      <created>1680358532610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680358532610</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tuanTT/testOpen.java</url>
+          <line>31</line>
+          <properties class="tuanTT.testOpen" method="Test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tuanTT/testOpen.java</url>
+          <line>53</line>
+          <properties class="tuanTT.testOpen" method="BeforeMethod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
