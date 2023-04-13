@@ -1,4 +1,4 @@
-package lanhD;
+package lanhD.javaCore;
 
 import java.util.ArrayList;
 import java.util.HashMap;

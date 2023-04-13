@@ -1,4 +1,4 @@
-package lanhD;
+package lanhD.javaCore;
 
 public class base1 {
 
