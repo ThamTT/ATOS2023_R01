@@ -92,13 +92,6 @@ public  class base2 {
         }
 
         public void Xuat(){
-
-//            System.out.println("\n Ma          : " + ma);
-//            System.out.println("\n Ten         : " + ten);
-//            System.out.println("\n Nam sinh    : " + namsinh);
-//            System.out.println("\n He so luong : " + heso);
-//            System.out.println("\n Phụ cap     : " + tienPC);
-//            System.out.println("\n Luong       : " + luong);
             System.out.printf("\n%-15s%-20s%-15s%-20s%-15s%-15s",ma, ten , namsinh , heso, tienPC , luong);
         }
     }
@@ -106,10 +99,6 @@ public  class base2 {
     public static class QLNV{
         private int n;
         private NhanVien [] a;
-
-
-
-
 
         public void nhapDS() {
             Scanner sc = new Scanner(System.in);
@@ -128,15 +117,12 @@ public  class base2 {
                 a[i].Nhap();
             }
         }
-
-        //Xuat danh sach khach hang
         public void xuatDS() {
             System.out.printf("\n%-15s%-20s%-15s%-20s%-15s%-15s","Ma" , "Ho Ten" , "Nam Sinh" , "He So", "Phu cap", "Luong");
             for(int i = 0; i < n;i++) {
                 a[i].Xuat();
             }
         }
-
         public void luongMax(){
             float max = a[0].luong;
             for(int i = 0; i < n;i++){

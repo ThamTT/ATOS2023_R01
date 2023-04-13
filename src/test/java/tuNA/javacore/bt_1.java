@@ -1,4 +1,4 @@
-package tuLON;
+package tuNA.javacore;
 
 public class bt_1 {
     public static boolean isPrime(int n){

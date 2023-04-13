@@ -1,4 +1,4 @@
-package tuLON;
+package tuNA.javacore;
 
 public class bt_2 {
     public static void main(String[] args) {
