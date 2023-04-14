@@ -1,13 +1,17 @@
 package lanhD.testng;
 
-import org.testng.annotations.Parameters;
+import com.beust.jcommander.Parameters;
+import com.google.common.annotations.VisibleForTesting;
+
 import org.testng.annotations.Test;
 
 import java.util.Scanner;
 
 public class checkPassFail {
     @Test
-    @Parameters({"mark"})
+
+  //  @Parameters({"mark"})
+
     public  void checkpassfail(int mark){
         if (mark>=50){
             System.out.println("Pass");
