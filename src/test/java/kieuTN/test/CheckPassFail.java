@@ -1,4 +1,4 @@
-package kieuNT.Test;
+package kieuTN.test;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
