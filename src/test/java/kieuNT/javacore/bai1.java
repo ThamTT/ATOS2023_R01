@@ -1,4 +1,4 @@
-package kieuNT;
+package kieuNT.javacore;
 
 public class bai1 {
     public static int KTNT(int n){

@@ -1,4 +1,4 @@
-package kieuNT;
+package kieuNT.javacore;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
