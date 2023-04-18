@@ -14,7 +14,7 @@ public class Assignment03 {
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.walmart.com/account/login");
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         WebElement email = driver.findElement(By.xpath("//div[@class=\"w_VCAX\"]/input"));
         email.sendKeys("pvtuan2323@gmail.com");
         WebElement clickContinue = driver.findElement(By.className("w_hhLG w_8nsR w_jDfj w-100 mv3"));
@@ -25,6 +25,10 @@ public class Assignment03 {
         lastName.sendKeys("Pham");
         WebElement password = driver.findElement(By.xpath("//input[@name=\"newPassword\"]"));
         password.sendKeys("123456");
+        WebElement createAcc = driver.findElement(By.xpath("//button[@name=\"Create Account\"]"));
+        createAcc.click();
+        driver.close();
+
 
     }
     @Test
@@ -51,8 +55,6 @@ public class Assignment03 {
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.booking.com/index.vi.html?label=gen173nr-1BCAEoggI46AdIM1gEaPQBiAEBmAEquAEXyAEM2AEB6AEBiAIBqAIDuALxrfehBsACAdICJDgzMTRhNDdjLTIwYmYtNGQzNC04ZjM1LWRmNWRjZTQ4YWI5ONgCBeACAQ&sid=4ebddfec0c25997a7592a84126b00cde&keep_landing=1&sb_price_type=total&");
         driver.manage().window().maximize();
-        //*[@id="b2indexPage"]/div[1]/div/header/nav[1]/div[2]/a[2]
-        //*[@id="root"]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/form/div[3]/button
         WebElement sigin = driver.findElement(By.className("js-header-login-link"));
         sigin.click();
         WebElement email = driver.findElement(By.className("ZMH9h0HCYH9GGNxHnXGJ"));
@@ -71,7 +73,6 @@ public class Assignment03 {
         driver.manage().window().maximize();
         WebElement sigin = driver.findElement(By.className("js-header-login-link"));
         sigin.click();
-        //*[@id="root"]/div/div/div/div[2]/div[1]/div/div/div/div/div/div/form/div[4]/div[2]/a[1]
         WebElement facebook = driver.findElement(By.xpath("//a[@class=\"access-panel__social-button access-panel__social-button-facebook bui-button bui-button--secondary nw-social-btn-facebook\"]"));
         facebook.click();
         driver.close();
