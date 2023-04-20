@@ -27,6 +27,7 @@ public class Assignment03 {
         password.sendKeys("123456");
         WebElement createAcc = driver.findElement(By.xpath("//button[@name=\"Create Account\"]"));
         createAcc.click();
+
         driver.close();
 
 
