@@ -28,7 +28,7 @@ public class wordWithElements {
         String actual = txtHeader.getText();
         System.out.printf("text = "+actual);
 
-        driver.close();
+        //driver.close();
 
 
 
