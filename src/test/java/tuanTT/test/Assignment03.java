@@ -1,12 +1,10 @@
 package tuanTT.test;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
-
 public class Assignment03 {
     @Test
     public void Ex1() {
@@ -27,10 +25,7 @@ public class Assignment03 {
         password.sendKeys("123456");
         WebElement createAcc = driver.findElement(By.xpath("//button[@name=\"Create Account\"]"));
         createAcc.click();
-
         driver.close();
-
-
     }
     @Test
     public void Ex2(){
@@ -47,8 +42,6 @@ public class Assignment03 {
         System.out.println(price);
         driver.close();
     }
-
-
     @Test
     public void Ex3(){
         ChromeOptions options = new ChromeOptions();
@@ -77,6 +70,5 @@ public class Assignment03 {
         WebElement facebook = driver.findElement(By.xpath("//a[@class=\"access-panel__social-button access-panel__social-button-facebook bui-button bui-button--secondary nw-social-btn-facebook\"]"));
         facebook.click();
         driver.close();
-
     }
 }
