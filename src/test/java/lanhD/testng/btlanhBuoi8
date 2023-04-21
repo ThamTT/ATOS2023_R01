@@ -1,0 +1,16 @@
+Assigment03
+1)
+//input[@id='ld_ui_textfield_2422']
+//input[@name='lastName']
+//input[@id='ld_ui_textfield_75']
+//input[@class='w_ZjHt' and @name='newPassword']
+//input[@id='ld_checkbox_6852']
+//button[@class='w_hhLG w_8nsR w_jDfj w-100 mt4']
+2)
+//h1[@class='b lh-copy dark-gray mt1 mb2 f6 f3-m']
+//span[@itemprop='price']
+//p[@class='f6 di']
+3)
+//input[@name='username']
+//font[@style='vertical-align: inherit;']
+//a[@class='access-panel__social-button access-panel__social-button-facebook bui-button bui-button--secondary nw-social-btn-facebook']
