@@ -29,16 +29,35 @@ public class TestCKX {
         WebElement CkxRadio = driver.findElement(By.xpath("(//a[normalize-space(text()) = 'Radio buttons'])[1]"));
         CkxRadio.click();
 
-        WebElement CkxOnee = driver.findElement(By.xpath("(//input[@id='radio-choice-0a'])/.."));
+        //basic
+
+        WebElement CkxOnee = driver.findElement(By.xpath("//input[@id='radio-choice-0a']/.."));
         CkxOnee.click();
 
         WebElement CkxTwo = driver.findElement(By.xpath("//input[@id='radio-choice-0b']/.."));
 
 
-        WebElement CkxOneee = driver.findElement(By.xpath("(//input[@id='radio-choice-0a'])"));
+        WebElement CkxOneee = driver.findElement(By.xpath("//input[@id='radio-choice-0a']"));
         if (CkxOneee.isSelected())
             CkxTwo.click();
 
-        driver.close();
+
+        //minisize
+
+        WebElement rdoOne =driver.findElement(By.xpath("//input[@id='radio-choice-v-6a']/.."));
+        rdoOne.click();
+
+        WebElement rdoTwo = driver.findElement(By.xpath("//input[@id='radio-choice-v-6b']/.."));
+
+        WebElement rdoThree = driver.findElement(By.xpath("//input[@id='radio-choice-v-6c']/.."));
+
+
+        WebElement rdoCheck = driver.findElement(By.xpath("//input[@id='radio-choice-v-6a']"));
+        if (rdoCheck.isSelected())
+            rdoTwo.click();
+
+
+
+        //driver.close();
     }
 }
