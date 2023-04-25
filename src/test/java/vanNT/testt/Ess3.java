@@ -71,7 +71,6 @@ public class Ess3 {
         WebElement btnFb = driver.findElement(By.xpath("//div/a[@class=\"access-panel__social-button access-panel__social-button-facebook bui-button bui-button--secondary nw-social-btn-facebook\"]"));
         btnFb.click();
 
-
-        driver.close();
+        driver.quit();
     }
 }
