@@ -48,3 +48,4 @@ out/
 *.ipr
 *.iws
 .xml
+.DS_Store
