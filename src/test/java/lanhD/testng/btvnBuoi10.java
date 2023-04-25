@@ -21,7 +21,5 @@ public class btvnBuoi10 {
         Thread.sleep(3000);
         WebElement checkBoxGiamSau= driver.findElement(By.xpath("(//label[@class='style__CheckboxFake-sc-1ewjwu4-4 eUuyqO'])[4]/.."));
         checkBoxGiamSau.click();
-
-
     }
 }
