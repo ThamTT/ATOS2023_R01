@@ -1,0 +1,42 @@
+ASS3
+ex1
+- First Name Text Box
+//input[@name = 'firstName']
+
+- Last Name Text Box
+//input[@name= 'lastName']
+- Email Address Text Box
+//input[@name = 'Email Address']
+- Create a Password Text Box
+//input[@name = 'newPassword']
+- Keep me signed in check box
+//input[@id = 'ld_checkbox_6286']
+- Create Account Button
+//button[@class='w_hhLG w_8nsR w_jDfj w-100 mt4']
+- Sign in Button
+//button[@class='w_hhLG w_8nsR w_jDfj w-100']
+
+ex2
+- Title product
+//div[@data-testid = 'product-tile-0']
+- Price of product
+//div[@data-automation-id = 'product-price']
+- Free shipping info
+
+- None tab, 2 Year tab
+
+- Qty combobox
+
+- Add to Cart button
+//button[@data-automation-id= 'add-to-cart']
+- Add to list
+//div[@class = 'flex']/div/section/button
+- Add to Registry
+//div[@class = 'flex']/section/button
+ex3
+- Email Address textbox
+//input[@name = 'username']
+- Get started button
+//button[@type ='submit']
+- Sign up with Facebook
+//a[@data-provider-name= 'facebook']
