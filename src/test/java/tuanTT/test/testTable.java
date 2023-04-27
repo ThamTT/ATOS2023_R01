@@ -32,6 +32,7 @@ public class testTable {
                 System.out.printf("   " + col.getText());
             }
             System.out.printf("\n");
+
         }
 
         List<Map<String, String>> tableData = new ArrayList<>();
