@@ -7,10 +7,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class wordWithElements {
     @Test
@@ -23,14 +27,36 @@ public class wordWithElements {
 
         WebElement table = driver.findElement(By.id("customers"));
 
+
         List<WebElement> rows = table.findElements(By.tagName("tr"));
+        String headersString = "";
+        Map<String, String> map = new  HashMap<String, String>();
+        int count = 0;
+        int i = -1;
 
         for (WebElement row : rows){
+            count ++;
+
             List<WebElement> cols = row.findElements(By.tagName("td"));
-            for (WebElement col:cols){
-                System.out.printf("   " + col.getText());
+            List<WebElement> headers = row.findElements(By.tagName("th"));
+
+            if(count == 1)
+                for (WebElement header:headers){
+                   headersString += header.getText() + " ";
+                }
+
+            if(count > 1)
+                for (WebElement col:cols){
+                    map.put(headersString.split(" ")[i++], col.getText());
+                }
+
+            if(count >= 2){
+                break;
             }
-            System.out.printf("\n");
+        }
+
+        for (Map.Entry<String, String> item: map.entrySet()){
+            System.out.printf(item.getKey() + " - " + item.getValue() + "\n");
         }
 
     }
