@@ -1,0 +1,27 @@
+Ex1
+//button[@class="w_hhLG w_8nsR w_jDfj w-100 mv3"]
+//input[@name="firstName"]
+//input[@name="lastName"]
+//input[@name="Email Address"]
+//input[@name="newPassword"]
+//input[@name="Create Account"]
+//label[@class="w_UtDW w_1YDS"]
+
+//button[@class="w_hhLG w_8nsR w_jDfj w-100"]
+Ex2
+//div[@class="overflow-hidden"]/section/h1
+//span[@class="inline-flex flex-column"]/span
+//i[@class="ld ld-Plus"]
+//div[@class='flex']/div/section/button
+//div[@class='flex']/section/button
+
+
+//font[@style="vertical-align: inherit;"]
+
+Ex3
+By.className("js-header-login-link")
+By.className("ZMH9h0HCYH9GGNxHnXGJ")
+//button[@type=\"submit\"]
+By.className("js-header-login-link")
+//a[@class=\"access-panel__social-button access-panel__social-button-facebook bui-button bui-button--secondary nw-social-btn-facebook\"]
+

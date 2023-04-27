@@ -1,4 +1,4 @@
-package kieuNT;
+package kieuNT.javacore;
 
 public class base1 {
     public static void main(String[] args) {
