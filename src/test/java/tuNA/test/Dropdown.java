@@ -46,18 +46,18 @@ public class Dropdown {
         WebElement Cars = driver.findElement(By.id("car-tab"));
         Cars.click();
         Thread.sleep(2000);
-        WebElement pickingUp = driver.findElement(By.xpath("(//div[@class= 'form-group'])[37]/input"));
+        WebElement pickingUp = driver.findElement(By.xpath("//input[@placeholder= 'City, airport or address']"));
         pickingUp.sendKeys("BG");
-        WebElement dropOff = driver.findElement(By.xpath("(//div[@class= 'form-group'])[40]/input"));
+        WebElement dropOff = driver.findElement(By.xpath("//input[@placeholder= 'Same as pick-up']"));
         dropOff.sendKeys("ABCD");
 
-        Select timeUp = new Select(driver.findElement(By.xpath("(//div[@id = 'car']//select [@class = 'select-contain-select'])[1]")));
+        Select timeUp = new Select(driver.findElement(By.xpath("//label[text()='Picking up']/ancestor::form//label[text()='Time']/..//select")));
         Assert.assertFalse(timeUp.isMultiple());
         Assert.assertEquals(48, timeUp.getOptions().size());
         timeUp.selectByValue("1230AM");
         Assert.assertEquals("12:30AM", timeUp.getFirstSelectedOption().getText());
 
-        Select timeOff = new Select(driver.findElement(By.xpath("(//div[@id = 'car']//select [@class = 'select-contain-select'])[2]")));
+        Select timeOff = new Select(driver.findElement(By.xpath("//label[text()='Drop-off']/ancestor::form//label[text()='Time']/..//select")));
         Assert.assertFalse(timeOff.isMultiple());
         Assert.assertEquals(48, timeOff.getOptions().size());
         timeOff.selectByValue("0100AM");
