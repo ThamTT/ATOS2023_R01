@@ -51,7 +51,6 @@ public class actionclass {
         WebElement allCourse = driver.findElement(By.xpath("//a[normalize-space(text()) = 'All Courses']"));
         allCourse.click();
         actions.keyUp(Keys.CONTROL).sendKeys(Keys.END).build().perform();
-
     }
     @Test
     public void copyPaste() throws InterruptedException {
