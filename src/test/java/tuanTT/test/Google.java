@@ -18,27 +18,32 @@ public class Google {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
-        driver.get("https://techydevs.com/demos/themes/html/trizen-demo/trizen/index.html");
+        driver.get("https://www.google.com/");
         driver.manage().window().maximize();
-        WebElement inputKey = driver.findElement(By.xpath());
+        WebElement inputKey = driver.findElement(By.xpath("//textarea[@class='gLFyf']"));
         inputKey.sendKeys("abc");
         Actions action = new Actions(driver);
         action.sendKeys(Keys.ENTER).perform();
 
     }
-    public void test2(){
+    @Test
+    public void test2() throws InterruptedException {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
         driver.navigate().to("https://anhtester.com/");
         driver.manage().window().maximize();
-        WebElement title = driver.findElement(By.xpath(""));
+        Actions actions = new Actions(driver);
 
-        Actions action = new Actions(driver);
-        action.doubleClick().build().perform();
-        WebElement web = driver.findElement(By.xpath(""));
-        action.contextClick(web).build().perform();
+        WebElement doubleClickAuto = driver.findElement(By.xpath("//div[@class='col-lg-7']//h2"));
+        actions.doubleClick(doubleClickAuto).build().perform();
+        actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).build().perform();
+        actions.keyDown(Keys.CONTROL).sendKeys("c").keyUp(Keys.CONTROL).build().perform();
+        Thread.sleep(3000);
+        WebElement clickSearch = driver.findElement(By.xpath("//div[@class='menu-wrapper']//input"));
+        clickSearch.click();
 
-        action.moveToElement(eb).build().perform();
+        actions.keyDown(Keys.CONTROL).sendKeys("v").keyUp(Keys.CONTROL).build().perform();
+
     }
 }
