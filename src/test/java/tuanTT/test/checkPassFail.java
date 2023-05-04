@@ -1,4 +1,4 @@
-package tuanTT;
+package tuanTT.test;
 
 public class checkPassFail {
     public static String checkMark(int mark) {

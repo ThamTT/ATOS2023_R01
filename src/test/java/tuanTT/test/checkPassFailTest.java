@@ -1,4 +1,4 @@
-package tuanTT;
+package tuanTT.test;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
