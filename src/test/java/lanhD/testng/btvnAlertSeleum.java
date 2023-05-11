@@ -28,12 +28,12 @@ public class btvnAlertSeleum {
 
     @Test
     public void alertBTVN() throws InterruptedException {
-    //    WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
+       // WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement clickFirst =driver.findElement(By.xpath("//input[@name='firstname']"));
         clickFirst.click();
         clickFirst.sendKeys("dinh");
 
-      //  wait.until(ExpectedConditions.alertIsPresent());
+
       //  Thread.sleep(Long.parseLong("3000"));
 
         WebElement clicklast =driver.findElement(By.xpath("//input[@name='lastname']"));
@@ -51,6 +51,7 @@ public class btvnAlertSeleum {
         clickExperience.click();
 
         WebElement clickDate= driver.findElement(By.xpath("(//input[@type='text'])[3]"));
+       // wait.until(ExpectedConditions.alertIsPresent());
         Thread.sleep(Long.parseLong("3000"));
         clickDate.click();
         clickDate.sendKeys("5");
@@ -75,6 +76,11 @@ public class btvnAlertSeleum {
 
         driver.findElement(By.xpath("//button[text()='Button']")).click();
         driver.switchTo().alert().accept();
+
+
+
+        String originwin= driver.getWindowHandle();
+        driver.switchTo().window(originwin);
 
 
 
