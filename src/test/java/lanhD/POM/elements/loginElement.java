@@ -1,2 +1,5 @@
-package lanhD.POM.elements;public class loginElement {
+package lanhD.POM.elements;
+
+public class loginElement {
+
 }
