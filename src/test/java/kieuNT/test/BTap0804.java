@@ -34,7 +34,6 @@ public class BTap0804 {
         driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Kieu");
         driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Nguyen");
         driver.findElement(By.xpath("//input[@value = 'Female']")).click();
-
         JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("window.scrollBy(0,250)");
         Thread.sleep(3000);
@@ -65,9 +64,15 @@ public class BTap0804 {
 
  //       wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@name = 'submit']")));
         driver.findElement(By.xpath("//button[@name = 'submit']")).click();
-
         String message = driver.switchTo().alert().getText();
-      //  Assert.assertEquals(message, "", "Not equal");
+        System.out.println(message);
+        Assert.assertEquals(message, "You are submitting information to an external page.\n" +
+                "Are you sure?", "Not equal");
         driver.switchTo().alert().accept();
+
+        Thread.sleep(2000);
+        String originwin= driver.getWindowHandle();
+
+        driver.switchTo().window(originwin);
     }
 }
